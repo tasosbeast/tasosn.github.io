@@ -1,0 +1,146 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("../img/graham-holtshausen-fUnfEz3VLv4-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  color: aliceblue;
+}
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1em;
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: rgba(104, 122, 189, 0.444);
+  border-radius: 10px;
+}
+section {
+  flex-basis: 47%;
+  margin-right: 5%;
+}
+aside {
+  margin-top: 5rem;
+  flex-basis: 43%;
+}
+
+h1 {
+  font-family: "Rubik Wet Paint", cursive;
+  font-size: 4rem;
+  color: #9f5243;
+}
+
+p,
+[for="abtype"],
+[for="comments"] {
+  margin: 2rem 0 0.7rem 0;
+}
+
+legend {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  letter-spacing: 0.5px;
+  font-family: "Rubik Wet Paint", cursive;
+  color: #9f5243;
+}
+
+label {
+  font-size: 1.05rem;
+  display: block;
+}
+
+fieldset {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+textarea {
+  font-size: 1rem;
+  width: 100%;
+  height: 10rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  resize: none;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #fff;
+}
+
+select {
+  font-size: 1rem;
+  padding: 4px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  font-size: 1.1rem;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #9f5243;
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #c97b63;
+  transform: translateY(-4px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+  transform: translateY(2px);
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.2);
+  background-color: #9f5243;
+}
+
+input:not([type="radio"]):not([type="checkbox"]) {
+  width: 20rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  padding: 0;
+  margin-bottom: 2rem;
+  margin-top: 0.3rem;
+  border: none;
+  display: block;
+  position: relative;
+}
+
+select,
+input:not([type="radio"]):not([type="checkbox"]) {
+  background-color: rgba(255, 255, 255, 0);
+  color: #fff;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.242);
+}
+
+input:not([type="radio"]):not([type="checkbox"]):focus {
+  outline: 0px solid #9f5243;
+}
+
+
+address{
+  margin-bottom: 1rem;
+}
